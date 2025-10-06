@@ -1,0 +1,49 @@
+[package]
+name = "chess-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Web framework
+tokio = { version = "1.0", features = ["full"] }
+warp = "0.3"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Database
+tokio-postgres = { version = "0.7", features = ["with-chrono-0_4"] }
+deadpool-postgres = "0.10"
+
+# Password hashing
+bcrypt = "0.15"
+
+# JWT tokens
+jsonwebtoken = "9.2"
+
+# Environment variables
+dotenv = "0.15"
+
+# Validation
+validator = { version = "0.16", features = ["derive"] }
+regex = "1.10"
+
+# Utilities
+uuid = { version = "1.0", features = ["v4", "serde"] }
+thiserror = "1.0"
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+lazy_static = "1.4"
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+[lib]
+name = "chess_engine"
+path = "src/lib.rs"
+
+[[bin]]
+name = "server"
+path = "src/main.rs"

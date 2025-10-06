@@ -1,0 +1,9 @@
+C:\Users\WINDOW 10\Documents\chessApp2\target\debug\deps\validator_derive-6fe877405e38a19f.d: C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\lib.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\asserts.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\lit.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\quoting.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\validation.rs
+
+C:\Users\WINDOW 10\Documents\chessApp2\target\debug\deps\validator_derive-6fe877405e38a19f.dll: C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\lib.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\asserts.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\lit.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\quoting.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\validation.rs
+
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\lib.rs:
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\asserts.rs:
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\lit.rs:
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\quoting.rs:
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\validator_derive-0.16.0\src\validation.rs:

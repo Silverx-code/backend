@@ -1,0 +1,10 @@
+C:\Users\WINDOW 10\Documents\chessApp2\target\debug\deps\deadpool_postgres-5b6fa54dfb485bc2.d: C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\lib.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\config.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\generic_client.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\../README.md
+
+C:\Users\WINDOW 10\Documents\chessApp2\target\debug\deps\libdeadpool_postgres-5b6fa54dfb485bc2.rlib: C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\lib.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\config.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\generic_client.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\../README.md
+
+C:\Users\WINDOW 10\Documents\chessApp2\target\debug\deps\libdeadpool_postgres-5b6fa54dfb485bc2.rmeta: C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\lib.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\config.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\generic_client.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\../README.md
+
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\lib.rs:
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\config.rs:
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\generic_client.rs:
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\deadpool-postgres-0.10.5\src\../README.md:
