@@ -1,4 +1,4 @@
-mod chess;
+xmod chess;
 mod api;
 mod auth;
 mod db;
@@ -18,6 +18,12 @@ async fn main() {
 
     // Load environment variables
     dotenv::dotenv().ok();
+
+    // Get port from environment variable or use default
+    let port = std::env::var("PORT")
+        .unwrap_or_else(|_| "3030".to_string())
+        .parse::<u16>()
+        .expect("PORT must be a valid number");
 
     // Create database connection pool
     let db_pool = match create_pool().await {
@@ -143,7 +149,7 @@ async fn main() {
         .with(cors)
         .with(warp::log("chess_engine"));
 
-    println!("🚀 Chess Engine Server starting on http://localhost:3030");
+    println!("🚀 Chess Engine Server starting on http://0.0.0.0:{}", port);
     println!("📋 API Documentation:");
     println!("\n🔐 Authentication:");
     println!("  POST   /api/v1/auth/signup     - Register new user");
@@ -157,7 +163,8 @@ async fn main() {
     println!("\n🏥 Health:");
     println!("  GET    /health                 - Health check");
 
+    // Bind to 0.0.0.0 to accept connections from any network interface
     warp::serve(routes)
-        .run(([127, 0, 0, 1], 3030))
+        .run(([0, 0, 0, 0], port))
         .await;
 }
