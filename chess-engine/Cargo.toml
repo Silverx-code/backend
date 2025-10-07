@@ -46,4 +46,4 @@ path = "src/lib.rs"
 
 [[bin]]
 name = "server"
-path = "src/main.rs"
+path = "chess-engine/src/main.rs"
