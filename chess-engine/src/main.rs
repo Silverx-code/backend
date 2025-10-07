@@ -1,4 +1,4 @@
-xmod chess;
+mod chess;
 mod api;
 mod auth;
 mod db;
