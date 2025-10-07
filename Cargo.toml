@@ -5,44 +5,85 @@ edition = "2021"
 
 [dependencies]
 # Web framework
-tokio = { version = "1.0", features = ["full"] }
-warp = "0.3"
-tokio-tungstenite = "0.21"
-futures-util = "0.3"
-lazy_static = "1.4"
+actix-web = "4"
+actix-cors = "0.6"
 
-# Serialization
+# Async runtime
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+
+# PostgreSQL + chrono integration
+tokio-postgres = { version = "0.7", features = ["with-chrono-0_4"] }
+
+# For JSON serialization/deserialization
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 
-# Database
-tokio-postgres = "0.7"
-deadpool-postgres = "0.10"
-
-# Password hashing
-bcrypt = "0.15"
-argon2 = "0.5"
-
-# JWT tokens
-jsonwebtoken = "9.2"
+# Date/time handling
+chrono = { version = "0.4", features = ["serde"] }
 
 # Environment variables
 dotenv = "0.15"
 
-# Validation
-validator = { version = "0.16", features = ["derive"] }
-regex = "1.10"
-
-# Utilities
-uuid = { version = "1.0", features = ["v4", "serde"] }
-thiserror = "1.0"
-anyhow = "1.0"
-chrono = { version = "0.4", features = ["serde"] }
+# Password hashing and authentication
+argon2 = "0.5"
+jsonwebtoken = "9"
 
 # Logging
-tracing = "0.1"
-tracing-subscriber = "0.3"
+env_logger = "0.10"
+log = "0.4"
 
+# For error handling
+thiserror = "1.0"
+
+# Optional: If you use UUIDs in your database
+uuid = { version = "1", features = ["serde", "v4"] }
+
+[build-dependencies]
+# Optional: to compile build scripts cleanly
+dotenv = "0.15"
+[package]
+name = "chess-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Web framework
+actix-web = "4"
+actix-cors = "0.6"
+
+# Async runtime
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+
+# PostgreSQL + chrono integration
+tokio-postgres = { version = "0.7", features = ["with-chrono-0_4"] }
+
+# For JSON serialization/deserialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Date/time handling
+chrono = { version = "0.4", features = ["serde"] }
+
+# Environment variables
+dotenv = "0.15"
+
+# Password hashing and authentication
+argon2 = "0.5"
+jsonwebtoken = "9"
+
+# Logging
+env_logger = "0.10"
+log = "0.4"
+
+# For error handling
+thiserror = "1.0"
+
+# Optional: If you use UUIDs in your database
+uuid = { version = "1", features = ["serde", "v4"] }
+
+[build-dependencies]
+# Optional: to compile build scripts cleanly
+dotenv = "0.15"
 
 [[bin]]
 name = "server"
