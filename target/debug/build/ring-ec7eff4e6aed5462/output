@@ -12,7 +12,7 @@ cargo:rerun-if-env-changed=CARGO_CFG_TARGET_OS
 cargo:rerun-if-env-changed=CARGO_CFG_TARGET_ENV
 cargo:rerun-if-env-changed=CARGO_CFG_TARGET_ENDIAN
 OPT_LEVEL = Some(0)
-OUT_DIR = Some(C:\Users\WINDOW 10\Documents\chessApp2\target\debug\build\ring-ec7eff4e6aed5462\out)
+OUT_DIR = Some(C:\Users\WINDOW 10\Documents\chessApp2\backend\target\debug\build\ring-ec7eff4e6aed5462\out)
 TARGET = Some(x86_64-pc-windows-msvc)
 cargo:rerun-if-env-changed=VCINSTALLDIR
 VCINSTALLDIR = None
@@ -26,7 +26,7 @@ cargo:rerun-if-env-changed=WindowsSDKVersion
 WindowsSDKVersion = None
 cargo:rerun-if-env-changed=LIB
 LIB = None
-PATH = Some(C:\Users\WINDOW 10\Documents\chessApp2\target\debug\deps;C:\Users\WINDOW 10\Documents\chessApp2\target\debug;C:\Users\WINDOW 10\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\PowerShell\7;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\WINDOW 10\.cargo\bin;C:\Users\WINDOW 10\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\WINDOW 10\AppData\Local\Programs\Python\Python312\;C:\Users\WINDOW 10\AppData\Local\Microsoft\WindowsApps;;C:\Users\WINDOW 10\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2023.3.1\bin;;C:\Users\WINDOW 10\AppData\Roaming\npm;c:\Users\WINDOW 10\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\WINDOW 10\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+PATH = Some(C:\Users\WINDOW 10\Documents\chessApp2\backend\target\debug\deps;C:\Users\WINDOW 10\Documents\chessApp2\backend\target\debug;C:\Users\WINDOW 10\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\PowerShell\7;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\WINDOW 10\.cargo\bin;C:\Users\WINDOW 10\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\WINDOW 10\AppData\Local\Programs\Python\Python312\;C:\Users\WINDOW 10\AppData\Local\Microsoft\WindowsApps;;C:\Users\WINDOW 10\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2023.3.1\bin;;C:\Users\WINDOW 10\AppData\Roaming\npm;c:\Users\WINDOW 10\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\WINDOW 10\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
 cargo:rerun-if-env-changed=INCLUDE
 INCLUDE = None
 HOST = Some(x86_64-pc-windows-msvc)
@@ -68,7 +68,7 @@ curve25519_64_adx.c
 p256-nistz.c
 cargo:rustc-link-lib=static=ring_core_0_17_14_
 OPT_LEVEL = Some(0)
-OUT_DIR = Some(C:\Users\WINDOW 10\Documents\chessApp2\target\debug\build\ring-ec7eff4e6aed5462\out)
+OUT_DIR = Some(C:\Users\WINDOW 10\Documents\chessApp2\backend\target\debug\build\ring-ec7eff4e6aed5462\out)
 TARGET = Some(x86_64-pc-windows-msvc)
 cargo:rerun-if-env-changed=VCINSTALLDIR
 VCINSTALLDIR = None
@@ -82,7 +82,7 @@ cargo:rerun-if-env-changed=WindowsSDKVersion
 WindowsSDKVersion = None
 cargo:rerun-if-env-changed=LIB
 LIB = None
-PATH = Some(C:\Users\WINDOW 10\Documents\chessApp2\target\debug\deps;C:\Users\WINDOW 10\Documents\chessApp2\target\debug;C:\Users\WINDOW 10\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\PowerShell\7;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\WINDOW 10\.cargo\bin;C:\Users\WINDOW 10\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\WINDOW 10\AppData\Local\Programs\Python\Python312\;C:\Users\WINDOW 10\AppData\Local\Microsoft\WindowsApps;;C:\Users\WINDOW 10\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2023.3.1\bin;;C:\Users\WINDOW 10\AppData\Roaming\npm;c:\Users\WINDOW 10\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\WINDOW 10\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+PATH = Some(C:\Users\WINDOW 10\Documents\chessApp2\backend\target\debug\deps;C:\Users\WINDOW 10\Documents\chessApp2\backend\target\debug;C:\Users\WINDOW 10\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\PowerShell\7;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\WINDOW 10\.cargo\bin;C:\Users\WINDOW 10\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\WINDOW 10\AppData\Local\Programs\Python\Python312\;C:\Users\WINDOW 10\AppData\Local\Microsoft\WindowsApps;;C:\Users\WINDOW 10\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2023.3.1\bin;;C:\Users\WINDOW 10\AppData\Roaming\npm;c:\Users\WINDOW 10\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\WINDOW 10\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
 cargo:rerun-if-env-changed=INCLUDE
 INCLUDE = None
 HOST = Some(x86_64-pc-windows-msvc)
@@ -109,7 +109,7 @@ CFLAGS_x86_64-pc-windows-msvc = None
 CARGO_ENCODED_RUSTFLAGS = Some()
 constant_time_test.c
 cargo:rustc-link-lib=static=ring_core_0_17_14__test
-cargo:rustc-link-search=native=C:\Users\WINDOW 10\Documents\chessApp2\target\debug\build\ring-ec7eff4e6aed5462\out
+cargo:rustc-link-search=native=C:\Users\WINDOW 10\Documents\chessApp2\backend\target\debug\build\ring-ec7eff4e6aed5462\out
 cargo:rerun-if-changed=crypto\chacha\asm\chacha-armv4.pl
 cargo:rerun-if-changed=crypto\chacha\asm\chacha-armv8.pl
 cargo:rerun-if-changed=crypto\chacha\asm\chacha-x86.pl

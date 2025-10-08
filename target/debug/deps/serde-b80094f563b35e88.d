@@ -1,0 +1,14 @@
+C:\Users\WINDOW 10\Documents\chessApp2\backend\target\debug\deps\serde-b80094f563b35e88.d: C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\lib.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\integer128.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\mod.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\de.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\ser.rs C:\Users\WINDOW\ 10\Documents\chessApp2\backend\target\debug\build\serde-3da87c9acf6709cf\out/private.rs
+
+C:\Users\WINDOW 10\Documents\chessApp2\backend\target\debug\deps\libserde-b80094f563b35e88.rlib: C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\lib.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\integer128.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\mod.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\de.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\ser.rs C:\Users\WINDOW\ 10\Documents\chessApp2\backend\target\debug\build\serde-3da87c9acf6709cf\out/private.rs
+
+C:\Users\WINDOW 10\Documents\chessApp2\backend\target\debug\deps\libserde-b80094f563b35e88.rmeta: C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\lib.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\integer128.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\mod.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\de.rs C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\ser.rs C:\Users\WINDOW\ 10\Documents\chessApp2\backend\target\debug\build\serde-3da87c9acf6709cf\out/private.rs
+
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\lib.rs:
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\integer128.rs:
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\mod.rs:
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\de.rs:
+C:\Users\WINDOW\ 10\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.226\src\private\ser.rs:
+C:\Users\WINDOW\ 10\Documents\chessApp2\backend\target\debug\build\serde-3da87c9acf6709cf\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\WINDOW 10\\Documents\\chessApp2\\backend\\target\\debug\\build\\serde-3da87c9acf6709cf\\out
