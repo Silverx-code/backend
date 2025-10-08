@@ -7,17 +7,27 @@ pub async fn create_pool() -> Result<Pool, Box<dyn std::error::Error>> {
     let database_url = env::var("DATABASE_URL")
         .expect("DATABASE_URL must be set in environment variables");
 
-    // Parse connection string into a Config
+    // Parse DATABASE_URL into a tokio_postgres::Config
+    let pg_config: tokio_postgres::Config = database_url.parse()?;
+
+    // Create a Deadpool config and populate it from parsed config
     let mut cfg = Config::new();
-    cfg.pg_config = database_url.parse()?;
+    cfg.user = pg_config.get_user().map(|s| s.to_string());
+    cfg.password = pg_config.get_password().map(|s| s.to_string());
+    cfg.dbname = pg_config.get_dbname().map(|s| s.to_string());
+    cfg.host = pg_config.get_hosts()
+        .get(0)
+        .map(|h| h.to_string());
+    cfg.port = pg_config.get_ports().get(0).copied();
+
     cfg.manager = Some(ManagerConfig {
         recycling_method: RecyclingMethod::Fast,
     });
 
-    // Create connection pool
+    // Create the pool
     let pool = cfg.create_pool(Some(Runtime::Tokio1), NoTls)?;
 
-    // Test connection
+    // Test the connection
     let client = pool.get().await?;
     client.query("SELECT 1", &[]).await?;
 
