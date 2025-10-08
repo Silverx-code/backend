@@ -1,11 +1,9 @@
-services:
-  # PostgreSQL Database
-  - type: pserv
-    name: chess-db
-    env: docker
-    plan: free
-    ipAllowList: []
+databases:
+  - name: chess-db
+    databaseName: chess_engine
+    user: chess_user
 
+services:
   # Rust Web Service
   - type: web
     name: chess-engine-api
@@ -23,4 +21,6 @@ services:
         value: info
       - key: JWT_SECRET
         generateValue: true
+      - key: JWT_EXPIRATION
+        value: "86400"
     healthCheckPath: /health
